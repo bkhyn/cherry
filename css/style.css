@@ -1,0 +1,127 @@
+body{
+  font-family: cursive,Courier,serif;
+  user-select: none;
+}
+
+header{
+  width: 100%;
+  height: 380px;
+  background: url(../img/sakuranbo1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.head_container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: rgb(223, 124, 124);
+  font-size: 16px;
+}
+
+h1{
+  font-size: 28px;
+  color: rgb(212, 84, 84);
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+header h2{
+  text-align: center;
+  margin-top: 120px;
+  color: rgb(224, 194, 194);
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  border-left: 1px solid #000;
+}
+
+nav li:nth-child(4){
+  border-right: 1px solid #000;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.item01{
+  width: 70%;
+}
+
+.item01 h2{
+  text-align: center;
+  border-bottom: 1px solid navy;
+}
+
+.item01 img{
+  width: 99%;
+}
+
+.item02{
+  width: 22%;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.item02 h2{
+  font-size: 17px;
+  text-align: center;
+}
+
+.item02 ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.item02 li {
+  border-bottom: 1px dotted black;
+}
+
+.article_container{
+  display: flex;
+}
+
+.article_item{
+  width: 47%;
+}
+
+.article_item img{
+  display: inline-block;
+  height: 187px;
+  width: 99%;
+}
+
+.article_item p{
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(250, 242, 244);
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+footer h2{
+  text-align: center;
+  font-size: 16px;
+}
